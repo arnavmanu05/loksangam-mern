@@ -1,0 +1,11 @@
+{
+  "name": "loksangam-mern-root",
+  "version": "1.0.0",
+  "description": "LokSangam MERN - Geo-Social Campus Platform",
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "cd frontend && npm run build",
+    "backend": "cd backend && node server.js",
+    "frontend": "cd frontend && npm run dev"
+  }
+}

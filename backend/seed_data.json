@@ -1,0 +1,945 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Arnav_Shetty",
+      "date_joined": "2026-04-03T10:52:06+00:00",
+      "following": [
+        "Monish_Malpe",
+        "Sathwik_Bhat",
+        "Shreehari_Bhat",
+        "Arthik_Shetty",
+        "Sid_Mehta"
+      ]
+    },
+    {
+      "id": 7,
+      "username": "Monish_Malpe",
+      "date_joined": "2026-04-05T12:34:51.358133+00:00",
+      "following": [
+        "Arnav_Shetty"
+      ]
+    },
+    {
+      "id": 8,
+      "username": "Ashwin_Modey",
+      "date_joined": "2026-04-05T12:38:46.454680+00:00",
+      "following": [
+        "Arnav_Shetty",
+        "Monish_Malpe"
+      ]
+    },
+    {
+      "id": 9,
+      "username": "Sathwik_Bhat",
+      "date_joined": "2026-04-05T12:39:11.771304+00:00",
+      "following": []
+    },
+    {
+      "id": 10,
+      "username": "Shreehari_Bhat",
+      "date_joined": "2026-04-05T12:39:55.571043+00:00",
+      "following": []
+    },
+    {
+      "id": 11,
+      "username": "Bhavya_Singhvi",
+      "date_joined": "2026-04-05T12:41:39.407978+00:00",
+      "following": []
+    },
+    {
+      "id": 12,
+      "username": "Ansh_Sukh",
+      "date_joined": "2026-04-05T12:42:38.265248+00:00",
+      "following": []
+    },
+    {
+      "id": 13,
+      "username": "Arthik_Shetty",
+      "date_joined": "2026-04-05T12:43:24.360523+00:00",
+      "following": []
+    },
+    {
+      "id": 14,
+      "username": "Sid_Mehta",
+      "date_joined": "2026-04-05T12:48:54.842253+00:00",
+      "following": []
+    },
+    {
+      "id": 15,
+      "username": "Advik",
+      "date_joined": "2026-04-05T12:49:44.785028+00:00",
+      "following": []
+    },
+    {
+      "id": 16,
+      "username": "hisham",
+      "date_joined": "2026-04-06T06:17:07.067583+00:00",
+      "following": []
+    },
+    {
+      "id": 17,
+      "username": "athira123",
+      "date_joined": "2026-04-06T10:18:36.676280+00:00",
+      "following": [
+        "Arnav_Shetty"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": 3,
+      "name": "Student Plaza",
+      "address": "",
+      "latitude": 13.3473379691,
+      "longitude": 74.7933143484,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T12:50:32.841043+00:00"
+    },
+    {
+      "id": 4,
+      "name": "MIT Quadrangle",
+      "address": "",
+      "latitude": 13.3525584399,
+      "longitude": 74.7928154096,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T12:51:04.568606+00:00"
+    },
+    {
+      "id": 5,
+      "name": "M V Seminar Hall",
+      "address": "",
+      "latitude": 13.3524854028,
+      "longitude": 74.793683929,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T12:51:20.417364+00:00"
+    },
+    {
+      "id": 6,
+      "name": "MIT Cricket Ground",
+      "address": "",
+      "latitude": 13.3438770068,
+      "longitude": 74.7939622112,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T12:52:25.173986+00:00"
+    },
+    {
+      "id": 7,
+      "name": "END POINT",
+      "address": "",
+      "latitude": 13.366375819,
+      "longitude": 74.7862891799,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T12:53:01.334635+00:00"
+    },
+    {
+      "id": 8,
+      "name": "Bacchus Inn",
+      "address": "",
+      "latitude": 13.3488175356,
+      "longitude": 74.7799590153,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T12:55:17.445624+00:00"
+    },
+    {
+      "id": 9,
+      "name": "KMC Greens",
+      "address": "",
+      "latitude": 13.3533929798,
+      "longitude": 74.7868188179,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T12:55:54.250813+00:00"
+    },
+    {
+      "id": 10,
+      "name": "Food Court - 2",
+      "address": "",
+      "latitude": 13.3454942873,
+      "longitude": 74.7964939985,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T12:56:28.504123+00:00"
+    },
+    {
+      "id": 11,
+      "name": "MIT Basketball Court",
+      "address": "",
+      "latitude": 13.3492333349,
+      "longitude": 74.7925113174,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T12:57:10.035901+00:00"
+    },
+    {
+      "id": 12,
+      "name": "Worskhop",
+      "address": "",
+      "latitude": 13.3502102888,
+      "longitude": 74.793694204,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T12:58:17.713433+00:00"
+    },
+    {
+      "id": 13,
+      "name": "MIT Tennis Court",
+      "address": "",
+      "latitude": 13.3446580645,
+      "longitude": 74.7946288944,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T12:59:37.410215+00:00"
+    },
+    {
+      "id": 14,
+      "name": "Mannapalla Lake",
+      "address": "",
+      "latitude": 13.3407399028,
+      "longitude": 74.7870602053,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T13:00:24.201145+00:00"
+    },
+    {
+      "id": 15,
+      "name": "Arbi Falls",
+      "address": "",
+      "latitude": 13.3364617907,
+      "longitude": 74.7936255854,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T13:01:27.743547+00:00"
+    },
+    {
+      "id": 16,
+      "name": "Christ Church Manipal",
+      "address": "",
+      "latitude": 13.3422420793,
+      "longitude": 74.7889710151,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T13:02:00.869630+00:00"
+    },
+    {
+      "id": 17,
+      "name": "Venugopal Temple",
+      "address": "",
+      "latitude": 13.344889979,
+      "longitude": 74.7912223529,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T13:03:01.222894+00:00"
+    },
+    {
+      "id": 18,
+      "name": "Marena",
+      "address": "",
+      "latitude": 13.355409103,
+      "longitude": 74.7894682975,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T13:26:47.232049+00:00"
+    },
+    {
+      "id": 19,
+      "name": "MAHE Edu",
+      "address": "",
+      "latitude": 13.3532571262,
+      "longitude": 74.7850044342,
+      "created_by": "Arnav_Shetty",
+      "created_at": "2026-04-05T13:37:59.985356+00:00"
+    },
+    {
+      "id": 21,
+      "name": "Innovation Centre",
+      "address": "",
+      "latitude": 13.3517665034,
+      "longitude": 74.7925689845,
+      "created_by": "athira123",
+      "created_at": "2026-04-06T10:20:41.447091+00:00"
+    }
+  ],
+  "posts": [
+    {
+      "id": 4,
+      "author": "Arnav_Shetty",
+      "place_id": 7,
+      "place_name": "END POINT",
+      "title": "One of the most beautiful places in Manipal",
+      "rating": 5,
+      "created_at": "2026-04-05T13:05:46.814115+00:00",
+      "likes": [
+        "Arnav_Shetty",
+        "Ashwin_Modey",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/EndPoint1.jpg"
+      ],
+      "comments": [
+        {
+          "author": "Ashwin_Modey",
+          "content": "Definitely agree to this",
+          "created_at": "2026-04-05T17:11:25.864910+00:00"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "author": "Arnav_Shetty",
+      "place_id": 4,
+      "place_name": "MIT Quadrangle",
+      "title": "One of the most happening places during Fests",
+      "rating": 5,
+      "created_at": "2026-04-05T13:41:16.140237+00:00",
+      "likes": [
+        "Ashwin_Modey",
+        "Sid_Mehta",
+        "Advik",
+        "athira123"
+      ],
+      "images": [
+        "/media/post_images/Quadrangle1.jpeg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 6,
+      "author": "Arnav_Shetty",
+      "place_id": 19,
+      "place_name": "MAHE Edu",
+      "title": "Architectural Wonder, always a sight to see",
+      "rating": 5,
+      "created_at": "2026-04-05T17:00:15.159217+00:00",
+      "likes": [
+        "Arnav_Shetty",
+        "Ashwin_Modey",
+        "Sathwik_Bhat"
+      ],
+      "images": [
+        "/media/post_images/edu1.jpg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 7,
+      "author": "Monish_Malpe",
+      "place_id": 17,
+      "place_name": "Venugopal Temple",
+      "title": "The best place to visit whenever one's feeling stressful.",
+      "rating": 5,
+      "created_at": "2026-04-05T17:05:03.465553+00:00",
+      "likes": [
+        "Ashwin_Modey",
+        "Sathwik_Bhat",
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/VGT.jpeg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 8,
+      "author": "Monish_Malpe",
+      "place_id": 14,
+      "place_name": "Mannapalla Lake",
+      "title": "Had a great time boating here",
+      "rating": 5,
+      "created_at": "2026-04-05T17:05:38.839784+00:00",
+      "likes": [
+        "Ashwin_Modey"
+      ],
+      "images": [
+        "/media/post_images/lake1.jpeg"
+      ],
+      "comments": [
+        {
+          "author": "Sathwik_Bhat",
+          "content": "Haha, fun boating with you",
+          "created_at": "2026-04-05T17:16:30.809912+00:00"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "author": "Ashwin_Modey",
+      "place_id": 9,
+      "place_name": "KMC Greens",
+      "title": "Best spot to just relax amid the chaos of college life.",
+      "rating": 5,
+      "created_at": "2026-04-05T17:08:17.856166+00:00",
+      "likes": [],
+      "images": [
+        "/media/post_images/Greens1.jpeg"
+      ],
+      "comments": [
+        {
+          "author": "Monish_Malpe",
+          "content": "KMC is beautiful",
+          "created_at": "2026-04-06T06:31:46.304195+00:00"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "author": "Ashwin_Modey",
+      "place_id": 5,
+      "place_name": "M V Seminar Hall",
+      "title": "State of the Art Seminar Hall",
+      "rating": 5,
+      "created_at": "2026-04-05T17:09:05.549094+00:00",
+      "likes": [
+        "Arnav_Shetty",
+        "Ashwin_Modey",
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/Seminar1.jpeg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 12,
+      "author": "Ashwin_Modey",
+      "place_id": 15,
+      "place_name": "Arbi Falls",
+      "title": "Especially wonderful during the Rainy Season",
+      "rating": 5,
+      "created_at": "2026-04-05T17:09:48.824983+00:00",
+      "likes": [
+        "Ashwin_Modey"
+      ],
+      "images": [
+        "/media/post_images/Arbi1.jpeg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 13,
+      "author": "Sathwik_Bhat",
+      "place_id": 12,
+      "place_name": "Worskhop",
+      "title": "Learned a lot of wonderful things",
+      "rating": 5,
+      "created_at": "2026-04-05T17:12:53.383150+00:00",
+      "likes": [
+        "Sathwik_Bhat",
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/Workshop1.jpg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 14,
+      "author": "Sathwik_Bhat",
+      "place_id": 7,
+      "place_name": "END POINT",
+      "title": "Long walk but an unforgettable one",
+      "rating": 5,
+      "created_at": "2026-04-05T17:13:52.833816+00:00",
+      "likes": [
+        "Arnav_Shetty",
+        "Sathwik_Bhat",
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/Manipal_End_Point_Park2.jpg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 15,
+      "author": "Sathwik_Bhat",
+      "place_id": 14,
+      "place_name": "Mannapalla Lake",
+      "title": "Great spot to hangout with friends and family",
+      "rating": 5,
+      "created_at": "2026-04-05T17:15:04.847186+00:00",
+      "likes": [
+        "Arnav_Shetty",
+        "Sathwik_Bhat",
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/Lake2.jpg"
+      ],
+      "comments": [
+        {
+          "author": "Arnav_Shetty",
+          "content": "Beautiful Lake",
+          "created_at": "2026-04-06T06:11:12.055678+00:00"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "author": "Arthik_Shetty",
+      "place_id": 8,
+      "place_name": "Bacchus Inn",
+      "title": "Best place for a party",
+      "rating": 5,
+      "created_at": "2026-04-05T17:19:24.599554+00:00",
+      "likes": [
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/Bacchus2.jpeg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 17,
+      "author": "Arthik_Shetty",
+      "place_id": 11,
+      "place_name": "MIT Basketball Court",
+      "title": "Rare to find such a well maintained court",
+      "rating": 5,
+      "created_at": "2026-04-05T17:20:10.273331+00:00",
+      "likes": [
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/BBCourt1.webp"
+      ],
+      "comments": []
+    },
+    {
+      "id": 18,
+      "author": "Arthik_Shetty",
+      "place_id": 6,
+      "place_name": "MIT Cricket Ground",
+      "title": "It's not a day if you haven't played cricket here",
+      "rating": 5,
+      "created_at": "2026-04-05T17:21:01.696648+00:00",
+      "likes": [
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/MIT_Ground1.png"
+      ],
+      "comments": []
+    },
+    {
+      "id": 19,
+      "author": "Arthik_Shetty",
+      "place_id": 10,
+      "place_name": "Food Court - 2",
+      "title": "Reminds me of the good old carefree days of 1st year.",
+      "rating": 5,
+      "created_at": "2026-04-05T17:21:55.371224+00:00",
+      "likes": [
+        "Arthik_Shetty",
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/FC2.webp"
+      ],
+      "comments": []
+    },
+    {
+      "id": 20,
+      "author": "Arthik_Shetty",
+      "place_id": 18,
+      "place_name": "Marena",
+      "title": "Best sports complex among Universities in Indian",
+      "rating": 5,
+      "created_at": "2026-04-05T17:22:37.418559+00:00",
+      "likes": [
+        "Arthik_Shetty",
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/Marena.jpg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 21,
+      "author": "Shreehari_Bhat",
+      "place_id": 3,
+      "place_name": "Student Plaza",
+      "title": "You won't find a busier or youthful place in Manipal",
+      "rating": 5,
+      "created_at": "2026-04-05T17:26:04.488730+00:00",
+      "likes": [],
+      "images": [
+        "/media/post_images/StudentPlaza1.jpeg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 22,
+      "author": "Shreehari_Bhat",
+      "place_id": 17,
+      "place_name": "Venugopal Temple",
+      "title": "The calm in the chaos of Manipal",
+      "rating": 5,
+      "created_at": "2026-04-05T17:27:03.098419+00:00",
+      "likes": [
+        "Arnav_Shetty"
+      ],
+      "images": [
+        "/media/post_images/VGT2.jpeg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 23,
+      "author": "Shreehari_Bhat",
+      "place_id": 19,
+      "place_name": "MAHE Edu",
+      "title": "Our Alma Mater",
+      "rating": 5,
+      "created_at": "2026-04-05T17:27:41.338847+00:00",
+      "likes": [
+        "Arnav_Shetty",
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/Edu2.png"
+      ],
+      "comments": []
+    },
+    {
+      "id": 24,
+      "author": "Shreehari_Bhat",
+      "place_id": 9,
+      "place_name": "KMC Greens",
+      "title": "Always lovely to discover other colleges",
+      "rating": 5,
+      "created_at": "2026-04-05T17:29:29.680108+00:00",
+      "likes": [
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/Greens2.jpeg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 25,
+      "author": "Ansh_Sukh",
+      "place_id": 18,
+      "place_name": "Marena",
+      "title": "Doubt even some standalone sports complexes are this good",
+      "rating": 5,
+      "created_at": "2026-04-05T17:31:25.341353+00:00",
+      "likes": [],
+      "images": [
+        "/media/post_images/Marena2.jpeg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 26,
+      "author": "Ansh_Sukh",
+      "place_id": 4,
+      "place_name": "MIT Quadrangle",
+      "title": "Always in awe of its design",
+      "rating": 5,
+      "created_at": "2026-04-05T17:32:07.411235+00:00",
+      "likes": [
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/Qudrangle2.jpg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 27,
+      "author": "Ansh_Sukh",
+      "place_id": 5,
+      "place_name": "M V Seminar Hall",
+      "title": "A gem in the coal mine of AB2",
+      "rating": 5,
+      "created_at": "2026-04-05T17:32:53.452092+00:00",
+      "likes": [],
+      "images": [
+        "/media/post_images/Seminar2.jpeg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 28,
+      "author": "Bhavya_Singhvi",
+      "place_id": 11,
+      "place_name": "MIT Basketball Court",
+      "title": "Lovely to attend the inauguaration",
+      "rating": 5,
+      "created_at": "2026-04-05T17:33:55.510152+00:00",
+      "likes": [],
+      "images": [
+        "/media/post_images/BasketballCourt2.png"
+      ],
+      "comments": []
+    },
+    {
+      "id": 29,
+      "author": "Bhavya_Singhvi",
+      "place_id": 3,
+      "place_name": "Student Plaza",
+      "title": "Crown jewel of the campus",
+      "rating": 5,
+      "created_at": "2026-04-05T17:34:48.670450+00:00",
+      "likes": [
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/Studentplaza2.jpeg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 30,
+      "author": "Bhavya_Singhvi",
+      "place_id": 13,
+      "place_name": "MIT Tennis Court",
+      "title": "Love the court after its renovation",
+      "rating": 5,
+      "created_at": "2026-04-05T17:35:44.488229+00:00",
+      "likes": [
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/Tennis1.jpeg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 31,
+      "author": "Sid_Mehta",
+      "place_id": 16,
+      "place_name": "Christ Church Manipal",
+      "title": "A wonder to see whenever I pass by",
+      "rating": 5,
+      "created_at": "2026-04-05T17:37:23.186227+00:00",
+      "likes": [
+        "Arnav_Shetty",
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/Church.webp"
+      ],
+      "comments": []
+    },
+    {
+      "id": 32,
+      "author": "Sid_Mehta",
+      "place_id": 15,
+      "place_name": "Arbi Falls",
+      "title": "Love to hike here",
+      "rating": 5,
+      "created_at": "2026-04-05T17:38:01.677904+00:00",
+      "likes": [
+        "Arnav_Shetty",
+        "Sid_Mehta",
+        "Advik"
+      ],
+      "images": [
+        "/media/post_images/Arbi2.webp"
+      ],
+      "comments": [
+        {
+          "author": "Advik",
+          "content": "Best to hike with friends",
+          "created_at": "2026-04-05T17:48:07.676441+00:00"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "author": "Sid_Mehta",
+      "place_id": 8,
+      "place_name": "Bacchus Inn",
+      "title": "Great food, paneer butter garlic is to die for",
+      "rating": 5,
+      "created_at": "2026-04-05T17:38:36.912011+00:00",
+      "likes": [],
+      "images": [
+        "/media/post_images/Bacchus3.jpeg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 34,
+      "author": "Sid_Mehta",
+      "place_id": 3,
+      "place_name": "Student Plaza",
+      "title": "Not a day I have not visited this place",
+      "rating": 5,
+      "created_at": "2026-04-05T17:41:44.209981+00:00",
+      "likes": [],
+      "images": [
+        "/media/post_images/SP3.jpeg"
+      ],
+      "comments": []
+    },
+    {
+      "id": 35,
+      "author": "athira123",
+      "place_id": 21,
+      "place_name": "Innovation Centre",
+      "title": "State of the art Labs",
+      "rating": 5,
+      "created_at": "2026-04-06T10:21:08.601741+00:00",
+      "likes": [],
+      "images": [
+        "/media/post_images/Innovation_Centre.jpg"
+      ],
+      "comments": []
+    }
+  ],
+  "events": [
+    {
+      "id": 2,
+      "place_id": 7,
+      "place_name": "END POINT",
+      "creator": "Arnav_Shetty",
+      "title": "Shreya Ghoshal's Concert",
+      "description": "Invictus Proshow",
+      "event_datetime": "2026-04-08T20:30:00+00:00",
+      "inner_location": "End Point Football Ground",
+      "image": "/media/event_images/ShreyaGhoshal.jpeg",
+      "likes": [
+        "Arnav_Shetty",
+        "Monish_Malpe"
+      ],
+      "created_at": "2026-04-05T21:46:38.226551+00:00"
+    },
+    {
+      "id": 3,
+      "place_id": 18,
+      "place_name": "Marena",
+      "creator": "Arnav_Shetty",
+      "title": "Table Tennis Tournament",
+      "description": "Open to all interested participants",
+      "event_datetime": "2026-04-08T16:15:00+00:00",
+      "inner_location": null,
+      "image": "/media/event_images/Table_Tennis.jpeg",
+      "likes": [],
+      "created_at": "2026-04-05T21:48:38.423102+00:00"
+    },
+    {
+      "id": 4,
+      "place_id": 9,
+      "place_name": "KMC Greens",
+      "creator": "Arnav_Shetty",
+      "title": "Manipal Marathon",
+      "description": "Marathons from 3k to 42k, open to all interested.",
+      "event_datetime": "2026-04-09T06:30:00+00:00",
+      "inner_location": null,
+      "image": "/media/event_images/Marathon.jpeg",
+      "likes": [],
+      "created_at": "2026-04-05T21:50:15.625110+00:00"
+    },
+    {
+      "id": 5,
+      "place_id": 19,
+      "place_name": "MAHE Edu",
+      "creator": "Arnav_Shetty",
+      "title": "Alumni Speaker - Celebrity Chef Vikas Khanna",
+      "description": "Vikas Khanna will be speaking at the MAHE EDU building.",
+      "event_datetime": "2026-04-07T19:30:00+00:00",
+      "inner_location": "Seminar Hall",
+      "image": "/media/event_images/Vikas_Khanna.jpeg",
+      "likes": [],
+      "created_at": "2026-04-05T21:51:47.784650+00:00"
+    },
+    {
+      "id": 6,
+      "place_id": 4,
+      "place_name": "MIT Quadrangle",
+      "creator": "Arnav_Shetty",
+      "title": "Battle of Bands",
+      "description": "Musical Competition between different bands",
+      "event_datetime": "2026-04-08T20:30:00+00:00",
+      "inner_location": "Centre Stage",
+      "image": "/media/event_images/BOB-15.jpg",
+      "likes": [
+        "Arnav_Shetty"
+      ],
+      "created_at": "2026-04-05T21:53:14.448157+00:00"
+    },
+    {
+      "id": 7,
+      "place_id": 5,
+      "place_name": "M V Seminar Hall",
+      "creator": "Arnav_Shetty",
+      "title": "Instrumental Competition",
+      "description": "Competition between musicians playing instruments",
+      "event_datetime": "2026-04-08T20:00:00+00:00",
+      "inner_location": null,
+      "image": "/media/event_images/IMG_3986.jpg",
+      "likes": [
+        "Arnav_Shetty"
+      ],
+      "created_at": "2026-04-05T21:54:42.960443+00:00"
+    },
+    {
+      "id": 8,
+      "place_id": 11,
+      "place_name": "MIT Basketball Court",
+      "creator": "Arnav_Shetty",
+      "title": "Inter College Basketball Competition",
+      "description": "Women's Basketball tournament",
+      "event_datetime": "2026-04-08T10:30:00+00:00",
+      "inner_location": "Main Court",
+      "image": "/media/event_images/IMG_9522.jpg",
+      "likes": [
+        "Arnav_Shetty"
+      ],
+      "created_at": "2026-04-05T21:55:57.638519+00:00"
+    },
+    {
+      "id": 9,
+      "place_id": 3,
+      "place_name": "Student Plaza",
+      "creator": "Arnav_Shetty",
+      "title": "Street Dance Battle",
+      "description": "Street style dance competition",
+      "event_datetime": "2026-04-08T14:30:00+00:00",
+      "inner_location": null,
+      "image": "/media/event_images/SDB.jpeg",
+      "likes": [],
+      "created_at": "2026-04-05T21:57:07.613465+00:00"
+    },
+    {
+      "id": 10,
+      "place_id": 6,
+      "place_name": "MIT Cricket Ground",
+      "creator": "Arnav_Shetty",
+      "title": "Test Cricket Competition",
+      "description": "Men's Cricket Competition",
+      "event_datetime": "2026-04-08T10:30:00+00:00",
+      "inner_location": "Main Ground",
+      "image": "/media/event_images/img-9.JPG",
+      "likes": [
+        "Arnav_Shetty"
+      ],
+      "created_at": "2026-04-05T21:59:37.198566+00:00"
+    },
+    {
+      "id": 11,
+      "place_id": 21,
+      "place_name": "Innovation Centre",
+      "creator": "athira123",
+      "title": "Coding Competiton",
+      "description": "Coding Comp",
+      "event_datetime": "2026-04-08T18:00:00+00:00",
+      "inner_location": "2nd Floor",
+      "image": "/media/event_images/CodeCOmp.jpeg",
+      "likes": [],
+      "created_at": "2026-04-06T10:26:08.350203+00:00"
+    }
+  ]
+}
