@@ -50,7 +50,7 @@ function formatPost(post, currentUsername) {
   };
 }
 
-// 1. GET FEED (Matches Django's home view with search and prioritized feed)
+// 1. GET FEED
 router.get('/feed', optionalAuth, (req, res) => {
   const query = (req.query.q || '').trim().toLowerCase();
   const currentUsername = req.user?.username;
@@ -139,7 +139,7 @@ router.get('/feed', optionalAuth, (req, res) => {
   });
 });
 
-// 2. CREATE POST (Equivalent to /create/ in Django)
+// 2. CREATE POST
 router.post('/', authRequired, upload.array('images', 10), async (req, res) => {
   const { place_id, title } = req.body;
   if (!place_id || !title) {
@@ -226,7 +226,7 @@ router.post('/:id/comments', authRequired, (req, res) => {
   return res.status(201).json(newComment);
 });
 
-// 5. LIKE / UNLIKE POST (Equivalent to /like/<post_id>/ in Django)
+// 5. LIKE / UNLIKE POST
 router.post('/:id/like', authRequired, (req, res) => {
   const post = localDB.data.posts.find(p => String(p.id) === String(req.params.id));
   if (!post) {

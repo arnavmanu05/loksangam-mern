@@ -24,7 +24,7 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage });
 
-// 1. GET ALL EVENTS (Matches Django's all_events view)
+// 1. GET ALL EVENTS
 router.get('/', optionalAuth, (req, res) => {
   const currentUsername = req.user?.username;
 
@@ -64,7 +64,7 @@ router.get('/', optionalAuth, (req, res) => {
   return res.json(events);
 });
 
-// 2. CREATE EVENT (Matches /event/create/ in Django)
+// 2. CREATE EVENT
 router.post('/', authRequired, upload.single('image'), async (req, res) => {
   const { place_id, title, description, event_datetime, inner_location } = req.body;
   if (!place_id || !title || !description || !event_datetime) {
@@ -106,7 +106,7 @@ router.post('/', authRequired, upload.single('image'), async (req, res) => {
   return res.status(201).json(newEvent);
 });
 
-// 3. LIKE EVENT (Matches /event/<id>/like/ in Django)
+// 3. LIKE EVENT
 router.post('/:id/like', authRequired, (req, res) => {
   const event = localDB.data.events.find(e => String(e.id) === String(req.params.id));
   if (!event) {

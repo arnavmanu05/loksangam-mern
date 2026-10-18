@@ -38,7 +38,7 @@ uploadDirs.forEach(dir => {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 });
 
-// Serve uploaded media files at /media/... (1-to-1 match with Django's MEDIA_URL)
+// Serve uploaded media files at /media/...
 app.use('/media', express.static(path.join(__dirname, 'uploads')));
 // Also fallback serve from root media folder if needed
 const rootMedia = path.join(__dirname, '..', '..', 'media');

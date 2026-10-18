@@ -4,7 +4,7 @@ import { authRequired, optionalAuth } from '../middleware/auth.js';
 
 const router = express.Router();
 
-// 1. PUBLIC PROFILE (Matches profile_public in Django)
+// 1. PUBLIC PROFILE
 router.get('/:username', optionalAuth, (req, res) => {
   const targetUsername = req.params.username;
   const targetUser = localDB.data.users.find(
@@ -80,7 +80,7 @@ router.get('/:username', optionalAuth, (req, res) => {
   });
 });
 
-// 2. FOLLOW / UNFOLLOW (Matches follow_user in Django)
+// 2. FOLLOW / UNFOLLOW
 router.post('/:username/follow', authRequired, (req, res) => {
   const targetUsername = req.params.username;
   const currentUsername = req.user.username;

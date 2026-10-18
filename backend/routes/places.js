@@ -30,7 +30,7 @@ router.get('/', (req, res) => {
   return res.json(places);
 });
 
-// 2. DISCOVER NEW PLACE (Equivalent to /discover-place/ in Django)
+// 2. DISCOVER NEW PLACE
 router.post('/discover', authRequired, async (req, res) => {
   const { name, latitude, longitude } = req.body;
   if (!name || latitude === undefined || longitude === undefined) {
@@ -74,7 +74,7 @@ router.post('/discover', authRequired, async (req, res) => {
   });
 });
 
-// 3. GET PLACE MEMORIES (Equivalent to /get-memories/<id>/ in Django)
+// 3. GET PLACE MEMORIES
 router.get('/:id/memories', optionalAuth, (req, res) => {
   const placeId = req.params.id;
   const place = localDB.data.places.find(p => String(p.id) === String(placeId));
@@ -128,7 +128,7 @@ router.get('/:id/memories', optionalAuth, (req, res) => {
   });
 });
 
-// 4. GET PLACE EVENTS (Equivalent to /get-events/<id>/ in Django)
+// 4. GET PLACE EVENTS
 router.get('/:id/events', optionalAuth, (req, res) => {
   const placeId = req.params.id;
   const place = localDB.data.places.find(p => String(p.id) === String(placeId));
