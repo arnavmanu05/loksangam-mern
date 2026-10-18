@@ -142,8 +142,3 @@ Run backend and frontend concurrently in separate terminals:
 - `GET /api/users/:username` - Get public profile, stats, and memory timeline
 - `POST /api/users/:username/follow` - Toggle follow status on a user
 
----
-
-## License
-
-This project is licensed under the MIT License.
